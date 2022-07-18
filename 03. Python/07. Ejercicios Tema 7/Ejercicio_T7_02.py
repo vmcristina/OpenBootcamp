@@ -14,7 +14,7 @@ def main ():
     if hora >= 19:
         print ("Te puedes ir a casa")
     else:
-        print (f'Te quedan {18- hora} horas y {60 - minuto} minutos')
+        print (f'Te quedan {18- hora} horas y {59 - minuto} minutos')
 
 
 if __name__ == "__main__":

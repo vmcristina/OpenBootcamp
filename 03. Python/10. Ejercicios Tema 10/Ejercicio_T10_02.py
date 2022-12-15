@@ -7,25 +7,19 @@ from tkinter import StringVar, ttk
 from turtle import width
 
 
-
-#CREAR frame/VENTANA
+#CREAR raiz/VENTANA
 root = tkinter.Tk()
-
-
 
 #CREAR Y COLOCAR FRAME
 frame = ttk.Frame(root)
 frame.grid (row=0, column=0)
 
-
 frame.columnconfigure (0, weight=1)
 frame.columnconfigure (0, weight=1)
-
 
 #LABEL 
 label1 = tkinter.Label (frame, text='Lista de la compra:', bg='orange', fg='lightgreen')
 label1.grid (row=0, column=0)
-
 
 #RADIOBUTTON
 selected=tkinter.StringVar()
@@ -36,7 +30,6 @@ r2 = ttk.Radiobutton (frame, text='Limones', value=2, variable=selected)
 r2.grid (row=2, column=0, padx=5, pady=5)
 r3 = ttk.Radiobutton (frame, text='Bananas', value=3, variable=selected)
 r3.grid (row=3, column=0, padx=5, pady=5)
-
 
 
 root.mainloop()

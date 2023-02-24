@@ -1,0 +1,76 @@
+<!-- Replica el ejercicio del vídeo 3 de esta sesión y realiza el siguiente cambio:
+Replícalo exactamente igual, pero realiza una nueva versión en modo oscuro
+Los colores serán los siguientes
+-El rosa se queda igual
+-El fondo blanco será sustituido por el color #161717
+-El fondo de los inputs tendrá un color #212121
+-El fondo de los inputs cuando se hace hover será del color #454045
+-Los textos tendrán un color blanco -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ejercicios_T7_01.css">
+    <title>Ejercicio Tema 7</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h3>¡Regístrate en nuestros formularios!</h3>
+        <div class="botones">
+            <button class="google-boton">
+            <picture>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/480px-Google_%22G%22_Logo.svg.png" alt="logo-google">
+            </picture>
+                <span>Regístrate con Google</span>
+            </button>
+
+            <button class="twitter-boton">
+                <picture>
+                    <img src="https://tampabayhealth.org/wp-content/uploads/2017/12/twitter-logo-silhouette.png" alt="logo-twitter">
+                </picture>
+            </button>
+        </div>
+
+            <div class="separador">
+                <hr>
+                <span>O</span>
+                <hr>
+            </div>
+
+            <form action="" method="">
+                <div class="nombreapellido">
+                    <label for="nombre">
+                        <span>Nombre</span>
+                        <input id="nombre" name="nombre">
+                    </label>
+                    <label for="apellido">
+                        <span>Apellido</span>
+                        <input id="apellido" name="apellido">
+                    </label>
+                </div>
+
+                <label for="correo">
+                    <span>Correo electrónico</span>
+                    <input id="correo" name="correo">
+                </label>
+
+                <label for="password">
+                    <span>Contraseña</span>
+                    <input id="password" name="password" placeholder="6+ caracteres">
+                </label>
+
+                <label for="checkbox" class="checkbox-etiqueta">
+                    <input id="checkbox" type="checkbox">
+                    <span>Acepto las condiciones y aviso legal</span>
+                </label>
+
+                <button type="submit" class="submit-boton">Crear cuenta</button>
+
+            </form>
+    </div>
+</body>
+</html>
